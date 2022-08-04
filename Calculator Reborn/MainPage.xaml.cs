@@ -17,9 +17,7 @@ using Windows.UI.Xaml.Navigation;
 
 namespace Calculator_Reborn
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
+
     public sealed partial class MainPage : Page
     {
         public MainPage()
@@ -27,5 +25,14 @@ namespace Calculator_Reborn
             this.InitializeComponent();
         }
 
+        private void Calculator_Operation(object sender, RoutedEventArgs e)
+        {
+            switch((sender as Button).Content)
+            {
+                case "1":
+                    calculator_view.Text += "1";
+                    break;
+            }
+        }
     }
 }
