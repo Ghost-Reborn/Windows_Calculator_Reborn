@@ -32,6 +32,30 @@ namespace Calculator_Reborn
                 case "1":
                     calculator_view.Text += "1";
                     break;
+                case "2":
+                    calculator_view.Text += "2";
+                    break;
+                case "3":
+                    calculator_view.Text += "3";
+                    break;
+                case "4":
+                    calculator_view.Text += "4";
+                    break;
+                case "5":
+                    calculator_view.Text += "5";
+                    break;
+                case "6":
+                    calculator_view.Text += "6";
+                    break;
+                case "7":
+                    calculator_view.Text += "7";
+                    break;
+                case "8":
+                    calculator_view.Text += "8";
+                    break;
+                case "9":
+                    calculator_view.Text += "9";
+                    break;
             }
         }
     }
